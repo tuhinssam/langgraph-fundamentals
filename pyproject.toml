@@ -1,0 +1,17 @@
+[project]
+name = "langgraph-fundamentals"
+version = "0.1.0"
+description = "fundamentals of building langgraph agents"
+authors = [
+    {name = "tsamanta"}
+]
+readme = "README.md"
+requires-python = "3.12.4"
+dependencies = [
+    "langgraph (>=0.5.1,<0.6.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
